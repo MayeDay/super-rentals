@@ -1,0 +1,489 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200429.225758.30956.0.001.json",
+    "dumpEventTime": "2020-04-29T22:57:58Z",
+    "dumpEventTimeStamp": "1588172278169",
+    "processId": 30956,
+    "cwd": "C:\\Users\\James Maye\\Desktop\\Programming\\EmberJS\\super-rentals",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\James Maye\\AppData\\Roaming\\npm/node_modules/ember-cli/bin/ember",
+      "s"
+    ],
+    "nodejsVersion": "v13.8.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.8.0",
+      "v8": "7.9.317.25-node.28",
+      "uv": "1.34.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.8.0/node-v13.8.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.8.0/node-v13.8.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.8.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 43024187,
+        "nice": 0,
+        "sys": 54324656,
+        "idle": 431644703,
+        "irq": 8838140
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 25842406,
+        "nice": 0,
+        "sys": 25705703,
+        "idle": 477445000,
+        "irq": 936500
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 51680031,
+        "nice": 0,
+        "sys": 42872640,
+        "idle": 434440437,
+        "irq": 694734
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 26392093,
+        "nice": 0,
+        "sys": 22673093,
+        "idle": 479927921,
+        "irq": 409218
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 46236031,
+        "nice": 0,
+        "sys": 36576453,
+        "idle": 446180609,
+        "irq": 646468
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 24272640,
+        "nice": 0,
+        "sys": 33179296,
+        "idle": 471541171,
+        "irq": 298546
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 40428375,
+        "nice": 0,
+        "sys": 38121406,
+        "idle": 450443328,
+        "irq": 593546
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 31941750,
+        "nice": 0,
+        "sys": 32862906,
+        "idle": 464188453,
+        "irq": 307375
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Local Area Connection* 1",
+        "internal": false,
+        "mac": "96:b8:6d:c1:1c:a4",
+        "address": "fe80::580:9a51:44c4:d0e4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Local Area Connection* 1",
+        "internal": false,
+        "mac": "96:b8:6d:c1:1c:a4",
+        "address": "192.168.137.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::5d24:b6ad:a291:a38d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.126.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::6cf6:59dd:2052:eaa3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.169.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ae:6d:5b:f9:aa:e1",
+        "address": "fe80::2d69:481e:c908:45c6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ae:6d:5b:f9:aa:e1",
+        "address": "192.168.1.106",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "James-Maye-LP"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6fb0c1c09",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb0c5f7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb0c4f38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb1bec1b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb9e803e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb9cf791",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb8967fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb89e85b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb893d43",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb8924d4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb8b45a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fb60e891",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fbe3165d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6fbe32648",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000028c4b7e1100",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 145461248,
+    "totalCommittedMemory": 145461248,
+    "usedMemory": 129678336,
+    "availableMemory": 2009001056,
+    "memoryLimit": 2138570752,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047424,
+        "used": 1047424,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 116269056,
+        "committedMemory": 116269056,
+        "capacity": 115868488,
+        "used": 102612920,
+        "available": 13255568
+      },
+      "code_space": {
+        "memorySize": 2265088,
+        "committedMemory": 2265088,
+        "capacity": 2154016,
+        "used": 1477056,
+        "available": 676960
+      },
+      "map_space": {
+        "memorySize": 6033408,
+        "committedMemory": 6033408,
+        "capacity": 6026160,
+        "used": 5114560,
+        "available": 911600
+      },
+      "large_object_space": {
+        "memorySize": 18960384,
+        "committedMemory": 18960384,
+        "capacity": 18849048,
+        "used": 18849048,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 29.64,
+    "kernelCpuSeconds": 52.406,
+    "cpuConsumptionPercent": 0.494939,
+    "maxRss": 277716992,
+    "pageFaults": {
+      "IORequired": 501288,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 12441,
+      "writes": 2653
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\James Maye\\Desktop\\Programming\\EmberJS\\super-rentals",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\James Maye\\AppData\\Roaming",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "JAMES-MAYE-LP",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EMBER_CLI_INJECT_LIVE_RELOAD_BASEURL": "/",
+    "EMBER_CLI_INJECT_LIVE_RELOAD_PORT": "4200",
+    "EMBER_ENV": "development",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "HOME": "C:\\Users\\James Maye",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\James Maye",
+    "HOSTNAME": "James-Maye-LP",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\James Maye\\AppData\\Local",
+    "LOGONSERVER": "\\\\JAMES-MAYE-LP",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OLDPWD": "C:/Users/James Maye",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client;C:\\Program Files\\Intel\\iCLS Client;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_191\\bin;C:\\Program Files\\Java\\jdk1.8.0_191\\lib;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\James Maye\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\James Maye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\James Maye\\AppData\\Roaming\\npm;C:\\Users\\James Maye\\AppData\\Local\\hyper\\app-3.0.2\\resources\\bin;C:\\Users\\James Maye\\AppData\\Local\\atom\\bin;C:\\ProgramData\\James Maye\\GitHubDesktop\\bin",
+    "ORIGINAL_TEMP": "C:/Users/JAMESM~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/JAMESM~1/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\James Maye\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\James Maye\\OneDrive",
+    "PATH": "C:\\Users\\James Maye\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client;C:\\Program Files\\Intel\\iCLS Client;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Java\\jdk1.8.0_191\\bin;C:\\Program Files\\Java\\jdk1.8.0_191\\lib;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\James Maye\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\James Maye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\James Maye\\AppData\\Roaming\\npm;C:\\Users\\James Maye\\AppData\\Local\\hyper\\app-3.0.2\\resources\\bin;C:\\Users\\James Maye\\AppData\\Local\\atom\\bin;C:\\ProgramData\\James Maye\\GitHubDesktop\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PT7HOME": "C:\\Program Files\\Cisco Packet Tracer 7.0",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/James Maye/Desktop/Programming/EmberJS/super-rentals",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\JAMESM~1\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "Hyper",
+    "TERM_PROGRAM_VERSION": "3.0.2",
+    "TMP": "C:\\Users\\JAMESM~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\JAMESM~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "JAMES-MAYE-LP",
+    "USERDOMAIN_ROAMINGPROFILE": "JAMES-MAYE-LP",
+    "USERNAME": "James Maye",
+    "USERPROFILE": "C:\\Users\\James Maye",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\SspiCli.dll",
+    "C:\\WINDOWS\\SYSTEM32\\ntmarta.dll",
+    "C:\\WINDOWS\\System32\\perfos.dll"
+  ]
+}
